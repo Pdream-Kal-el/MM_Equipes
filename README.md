@@ -42,7 +42,9 @@ Este projeto é um sistema desenvolvido para gerenciar as informações dos func
 
 ## Solução
 
+<p align="center" style="margin:50px;">
 ![LogoSejaUmGigante](https://github.com/user-attachments/assets/26373b3a-43c8-420e-a066-0446df0289df)
+</p>
 
 Nós da Seja Um Gigante, com base na nossa equipe de análise de requisitos, implementamos um sistema completo que consiste em:
 - Login de um Funcionário.
