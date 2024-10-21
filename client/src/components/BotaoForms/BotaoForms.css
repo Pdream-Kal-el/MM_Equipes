@@ -1,0 +1,18 @@
+.Botao {
+    background-color: #6278f7;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 16px 32px; /* Ajuste no padding para uma aparência melhor */
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    margin: 32px 0; /* Deixa margem em cima e embaixo */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Botao:hover { /* Corrigido de :Hover para :hover */
+    color: #95FFd4;
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}

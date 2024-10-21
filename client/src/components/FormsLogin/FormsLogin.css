@@ -1,0 +1,23 @@
+.Formulario {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    margin: 80px 0;
+}
+
+.Formulario form {
+    display: flex; /* Ativa o layout flex no formulário */
+    flex-direction: column; /* Organiza os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    max-width: 80%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.06);
+}
+
+.Erro {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: red;
+}

@@ -1,0 +1,29 @@
+.Formulario {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    margin: 80px 0;
+}
+
+.Formulario form {
+    display: flex; /* Ativa o layout flex no formulário */
+    flex-wrap: wrap; /* Permite que os itens quebrem para novas linhas */
+    background-color: #F2F2F2;
+    border-radius: 20px; 
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.06);
+}
+
+.FormGroup {
+    display: flex;
+ /* Organiza os itens verticalmente dentro de cada grupo */
+ /* Permite que cada grupo de campos ocupe o espaço disponível */
+ /* Define um tamanho mínimo para os campos */
+ /* Espaço entre grupos */
+    justify-content:space-between;
+}
+
+.Erro {
+    display: block;
+    margin-top: 8px;
+    font-size: 24px;
+    color: red;
+}

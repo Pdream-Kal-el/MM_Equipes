@@ -1,0 +1,14 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(30, 63, 174); /* Azul escuro */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.navegacao {
+    display: flex;
+    gap: 20px; /* Espaço entre os botões */
+}
+

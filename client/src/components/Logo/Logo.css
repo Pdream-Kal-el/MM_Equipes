@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/* Container da logo e título */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre a logo e o título */
+}
+
+/* Botão da logo */
+.logo-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Imagem da logo */
+.logo-img {
+    width: 50px;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+/* Efeito hover na logo */
+.logo-button:hover .logo-img {
+    opacity: 0.8;
+}
+
+/* Título ao lado da logo com fonte tecnológica */
+.logo-title {
+    font-size: 1.5rem;
+    color: rgb(255, 221, 64); /* Cor do título */
+    margin: 0;
+    font-family: 'Orbitron', sans-serif; /* Fonte tecnológica */
+    letter-spacing: 1px; /* Espaçamento entre as letras */
+    text-transform: uppercase; /* Colocar as letras em maiúsculo para um efeito mais impactante */
+}

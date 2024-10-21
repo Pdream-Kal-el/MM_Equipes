@@ -1,0 +1,20 @@
+.Botao-Nav {
+    top: 20px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    padding: 10px 25px;
+    background-color: #007BFF; /* Azul mais suave */
+    color: #FFF; /* Cor do texto */
+    border: none;
+    border-radius: 25px; /* Mais arredondado */
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Leve sombra para destacar */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito ao passar o mouse */
+.Botao-Nav:hover {
+    color:#95FFd4;
+    background-color: #0056b3; /* Azul mais escuro */
+    transform: translateY(-2px); /* Efeito de elevação */
+}

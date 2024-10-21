@@ -1,0 +1,108 @@
+.UsuarioPage {
+    text-align: center;
+    padding: 20px;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilos do botão de alteração */
+.Botao {
+    background-color: #6278f7;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    margin: 32px 0;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Botao:hover {
+    color: #95FFd4;
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Estilos para o botão de deletar */
+.Deletar {
+    background-color: #ff4d4d; /* Cor de fundo para o botão de deletar */
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    margin: 0; /* Remover margens para ficar no topo da div */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Deletar:hover {
+    background-color: #c70000; /* Cor ao passar o mouse */
+    transform: translateY(-2px);
+}
+
+.card {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card h2 {
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.card a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0077ff;
+}
+
+.error {
+    color: red;
+}
+
+.fotoFuncionario img  {
+    width: 450px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 32px 0; /* Deixa margem em cima e embaixo */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.fotoFuncionario img:hover { /* Corrigido de :Hover para :hover */
+    transform: translateY(-2px);
+}

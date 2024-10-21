@@ -1,0 +1,16 @@
+.Times{
+    text-align: center;
+    padding: 32px;
+}
+.Times h3{
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+.Times .Funcionarios{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}

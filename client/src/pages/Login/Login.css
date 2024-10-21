@@ -1,0 +1,8 @@
+.section-body{
+    width: 99.9vw;
+    height: 99.9vh;
+    background-image: url('../../assets/img/LogoSemFundo.png'); /* Adicione o caminho da sua imagem */
+    background-size: 1000px; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: center;
+    background-repeat: no-repeat;
+}
